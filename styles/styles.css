@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Lato, sans-serif;
+}
+#header {
+    background-color: #fff;
+    color: #999;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-img {
+    width: 250px;
+    height: 20px
+}
+#nav-bar {
+    display: flex;
+}
+.nav-link {
+    text-decoration: none;
+    color: #111;
+    margin: 0 10px;
+    font-family: "Lato", sans-serif; 
+}
+#nav-bar ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 5;
+    display: flex; 
+}
+#nav-bar ul li {
+    margin: 0 30px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px; /* Increase the font size as needed */
+    font-family: "Lato", Arial, sans-serif; 
+    text-align: center;
+}
+#email {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Lato", Arial, sans-serif; /* Apply "Lato" font */
+}
+#submit{
+    background-color: #F0E68C;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    display: flex; 
+}
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+iframe {
+    max-width: 100%;
+    max-height: 100%; 
+}
+@media screen and (max-width: 768px) {
+    #how-it-works {
+        height: auto;
+    }
+}
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    font-weight: bold;
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+}
+.product {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#privacy, #terms, #contact {
+    margin: 10px;
+    cursor: pointer;
+}
