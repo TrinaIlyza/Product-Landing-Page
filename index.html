@@ -1,78 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Original Trombones</title>
-</head>
-<body>
-    <header id="header">
-        <img id="header-img" src="https://novibonjovi.github.io/product-landing-page/img/original_trombones.png" alt="Original Trombones Logo">
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img"
+            src="https://www.boscoffee.com/cdn/shop/files/Bo_s_Logo_HORIZONTAL_blck_2017_45804867-a740-450e-a550-e96bbddd5b31_1200x1200.png?v=1620380443" alt="boscoffee logo"/>
+        </div>
         <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#features">Features</a></li>
-                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-                <li><a class="nav-link" href="#pricing">Pricing</a></li>
-            </ul>
+          <ul>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#menu">Menu</a></li>
+            <li><a class="nav-link" href="#contact_us">Contact Us</a></li>
+          </ul>
         </nav>
-    </header>
-    <section id="features">
-        <h2>Features</h2>
-        <p class="bold">Handcrafted, home-made masterpieces</p>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your Email Address" required>
-        <input type="submit" id="submit" value="Submit">
-        </form>       
-        <ul>
-            <li>Premium Materials</li>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-            <li>Fast Shipping</li>
-            <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            <li>Quality Assurance</li>
-            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-        </ul>
-    </section>
-    <section id="how-it-works">
-    <h2>How It Works</h2>
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allowfullscreen></iframe>
-    </section>
-    <section id="pricing">
-        <h2>Pricing</h2>
-        <div class="product">
-            <h3>TENOR TROMBONE</h3>
-            <p>$600</p>
-            <p>Lorem ipsum.</p>
-            <p>Lorem ipsum.</p>
-            <p>Lorem ipsum dolor.</p>
-            <p>Lorem ipsum.</p>
-            <button>SELECT</button>
-        </div>
-        <div class="product">
-            <h3>BASS TROMBONE</h3>
-            <p>$900</p>
-            <p>Lorem ipsum.</p>
-            <p>Lorem ipsum.</p>
-            <p>Lorem ipsum dolor.</p>
-            <p>Lorem ipsum.</p>
-            <button>SELECT</button>
-        </div>
-        <div class="product">
-            <h3>VALVE TROMBONE</h3>
-            <p>$1200</p>
-            <p>Plays similar to a Trumpet</p>
-            <p>Great for Jazz Bands</p>
-            <p>Lorem ipsum dolor.</p>
-            <p>Lorem ipsum.</p>
-            <button>SELECT</button>
-        </div>
-    </section>
-    <footer>
-        <div id="privacy">Privacy</div>
-        <div id="terms">Terms</div>
-        <div id="contact">Contact</div>
-        <p>&copy; 2016, Original Trombones</p>
-    </footer>
-</body>
+      </header>
+
+      <div class="container"></div>
+      <section id="hero">
+        <h2>Premium Quality Coffee, Only For You</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required/>
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="home">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-coffee" style="font-size:48px"></i></div>
+            <div class="desc">
+              <h2>We put the spotlight on Philippine Coffee.</h2>
+              <p>Each cup of coffee sold supports local farmers through fair trade and contains beans sourced across the Philippines from Sagada & Benguet in the North, to Mt. Apo, Mt. Kitanglad, and Mt. Matutum in the South.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-check-square" style="font-size:48px"></i></div>
+            <div class="desc">
+              <h2>Quality Service</h2>
+              <p>We make sure you recieve the outmost service when you chose to visit us. We will provide you service until you're satisfied.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-heartbeat" aria-hidden="true" style="font-size:48px"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Product</h2>
+              <p>You will taste the original and one of a kind taste of our Philippine Coffee.</p>
+            </div>
+          </div>
+        </section>
+        <section id="menu">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.coffeefriend.co.uk/app/uploads/2021/01/Frappe-virselis.jpg"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="contact_us">
+          <div class="product" id="tenor">
+            <div class="level">Philippine Coffee Origins</div>
+            <h2>Php 109</h2>
+            <ol>  
+              <li>Mt. Kitanglad</li>
+              <li>Mt. Apo </li>
+              <li>Sagada</li>
+              <li>Benguet - Atok</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Hot Espresso</div>
+            <h2>Php 139</h2>
+            <ol>
+              <li>Caffe Americano</li>
+              <li>Caffe Latte</li>
+              <li>Cappuccino</li>
+              <li>White Chocolate Mocha</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Froccino</div>
+            <h2>Php 159</h2>
+            <ol>
+              <li>Caramelo</li>
+              <li>Coffee Jelly</li>
+              <li>Matcha Green Tea</li>
+              <li>Cookies n' Cream</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2016, Bos Coffee</span>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
